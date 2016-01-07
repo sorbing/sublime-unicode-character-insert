@@ -1,0 +1,3 @@
+[
+    { "keys": [ "ctrl+shift+u", "ctrl+shift+i" ], "command": "unicode_character_insert" }
+]

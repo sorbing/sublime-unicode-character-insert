@@ -1,0 +1,18 @@
+[
+    {
+        "caption": "Unicode Characters",
+        "mnemonic": "f",
+        "id": "unicode_character_insert",
+        "children":
+        [
+            {
+                "command": "unicode_character_insert",
+                "caption": "Show Characters Table"
+            }
+        ]
+    },
+	{
+        "caption": "-",
+        "id": "separator"
+    }
+]
