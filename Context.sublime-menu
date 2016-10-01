@@ -1,7 +1,6 @@
 [
     {
         "caption": "Unicode Characters",
-        "mnemonic": "f",
         "id": "unicode_character_insert",
         "children":
         [
