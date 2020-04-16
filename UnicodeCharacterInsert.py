@@ -13,5 +13,12 @@ class UnicodeCharacterInsertCommand(sublime_plugin.TextCommand):
         return content
 
     def on_choice_symbol(self, symbol):
-        self.view.run_command("insert", {"characters": symbol})
+        if symbol == "CR":
+            self.view.run_command("insert", {"characters": "\r"})
+        elif symbol == "LF":
+            self.view.run_command("insert", {"characters": "\n"})
+        elif symbol == "NULL":
+            self.view.run_command("insert", {"characters": "\0"})
+        else:
+            self.view.run_command("insert", {"characters": symbol})
         self.view.hide_popup()
